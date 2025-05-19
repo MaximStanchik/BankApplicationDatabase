@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>BankApplicationDB</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.jkiss.dbeaver.DBeaverNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>DataMaskingAndEncryption.sql</name>
+			<type>1</type>
+			<location>//D:/User/Desktop/StudyAtBSTU/Course_3/Semester5/CourseProject/Solution/Database/DataMaskingAndEncryption.sql</location>
+		</link>
+	</linkedResources>
+</projectDescription>

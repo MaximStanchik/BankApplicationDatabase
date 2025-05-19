@@ -1,0 +1,105 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-193bf5a9803-705bb7fc83a9205b": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "xe",
+				"url": "jdbc:oracle:thin:@localhost:1521:xe",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SID"
+				},
+				"auth-model": "oracle_native",
+				"bootstrap": {
+					"autocommit": true
+				}
+			},
+			"custom-properties": {
+				"SQLEditor.outputPanel.autoShow": "false"
+			}
+		},
+		"oracle_thin-193cbe749cb-371e68730b492e13": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "BANK_APP_PDB",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "BANK_APP_PDB",
+				"url": "jdbc:oracle:thin:@//localhost:1521/BANK_APP_PDB",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE",
+					"show-only-one-schema@": "false",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "true",
+					"@dbeaver-meta-use-alternative-table-query@": "false",
+					"oracle.meta-search-in-synonyms": "false",
+					"oracle.show-date-as-date": "false"
+				},
+				"auth-model": "oracle_native",
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
+		},
+		"oracle_thin-193d12142c8-221255fd31160330": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "BANK_APP_PDB 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "BANK_APP_PDB",
+				"url": "jdbc:oracle:thin:@//localhost:1521/BANK_APP_PDB",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native",
+				"bootstrap": {
+					"autocommit": true
+				}
+			}
+		}
+	},
+	"virtual-models": {"oracle_thin-193cbe749cb-371e68730b492e13":{"ADMIN_USER":{"@properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202501221300\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"oracle_thin-193cbe749cb-371e68730b492e13\"\u003e\u003centity id\u003d\"1\" name\u003d\"ACCOUNT_TRANSACTION\" fq-name\u003d\"ADMIN_USER.ACCOUNT_TRANSACTION\" order\u003d\"0\" x\u003d\"40\" y\u003d\"157\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"APP_USER\" fq-name\u003d\"ADMIN_USER.APP_USER\" order\u003d\"1\" x\u003d\"714\" y\u003d\"773\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"CARD\" fq-name\u003d\"ADMIN_USER.CARD\" order\u003d\"2\" x\u003d\"40\" y\u003d\"409\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"CREDITS\" fq-name\u003d\"ADMIN_USER.CREDITS\" order\u003d\"3\" x\u003d\"6\" y\u003d\"660\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"CREDIT_TYPE\" fq-name\u003d\"ADMIN_USER.CREDIT_TYPE\" order\u003d\"4\" x\u003d\"312\" y\u003d\"1249\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"CURRENCY\" fq-name\u003d\"ADMIN_USER.CURRENCY\" order\u003d\"5\" x\u003d\"606\" y\u003d\"183\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"7\" name\u003d\"CURRENCY_EXCHANGE_RATE\" fq-name\u003d\"ADMIN_USER.CURRENCY_EXCHANGE_RATE\" order\u003d\"6\" x\u003d\"312\" y\u003d\"40\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"8\" name\u003d\"PAYMENT_SERVICE\" fq-name\u003d\"ADMIN_USER.PAYMENT_SERVICE\" order\u003d\"7\" x\u003d\"312\" y\u003d\"517\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"9\" name\u003d\"USER_ACCOUNT\" fq-name\u003d\"ADMIN_USER.USER_ACCOUNT\" order\u003d\"8\" x\u003d\"312\" y\u003d\"289\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"10\" name\u003d\"USER_PROFILE\" fq-name\u003d\"ADMIN_USER.USER_PROFILE\" order\u003d\"9\" x\u003d\"312\" y\u003d\"697\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"11\" name\u003d\"USER_SUPPORT_REQUESTS\" fq-name\u003d\"ADMIN_USER.USER_SUPPORT_REQUESTS\" order\u003d\"10\" x\u003d\"536\" y\u003d\"917\"\u003e\u003cpath name\u003d\"ADMIN_USER\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_USER\" fq-name\u003d\"ADMIN_USER.USER_ACCOUNT.FK_USER\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"9\"/\u003e\u003crelation name\u003d\"FK_USER_PROFILE_USER\" fq-name\u003d\"ADMIN_USER.USER_PROFILE.FK_USER_PROFILE_USER\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"10\"/\u003e\u003crelation name\u003d\"FK_USER_SUPPORT_REQUEST_ACCOUNT\" fq-name\u003d\"ADMIN_USER.USER_SUPPORT_REQUESTS.FK_USER_SUPPORT_REQUEST_ACCOUNT\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"11\"/\u003e\u003crelation name\u003d\"FK_CREDITS_CREDITTYPE\" fq-name\u003d\"ADMIN_USER.CREDITS.FK_CREDITS_CREDITTYPE\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"4\"/\u003e\u003crelation name\u003d\"FK_TRANSACTION_CURRENCY\" fq-name\u003d\"ADMIN_USER.ACCOUNT_TRANSACTION.FK_TRANSACTION_CURRENCY\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_CURRENCY_EXCHANGE_RATE_TARGET\" fq-name\u003d\"ADMIN_USER.CURRENCY_EXCHANGE_RATE.FK_CURRENCY_EXCHANGE_RATE_TARGET\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"7\"/\u003e\u003crelation name\u003d\"FK_CURRENCY\" fq-name\u003d\"ADMIN_USER.USER_ACCOUNT.FK_CURRENCY\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"9\"/\u003e\u003crelation name\u003d\"FK_CARD_PAYMENT_SERVICE\" fq-name\u003d\"ADMIN_USER.CARD.FK_CARD_PAYMENT_SERVICE\" type\u003d\"fk\" pk-ref\u003d\"8\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"FK_TRANSACTION_ACCOUNT_FROM\" fq-name\u003d\"ADMIN_USER.ACCOUNT_TRANSACTION.FK_TRANSACTION_ACCOUNT_FROM\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_TRANSACTION_ACCOUNT_TO\" fq-name\u003d\"ADMIN_USER.ACCOUNT_TRANSACTION.FK_TRANSACTION_ACCOUNT_TO\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_CARD_ACCOUNT\" fq-name\u003d\"ADMIN_USER.CARD.FK_CARD_ACCOUNT\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"FK_CREDITS_ACCOUNT\" fq-name\u003d\"ADMIN_USER.CREDITS.FK_CREDITS_ACCOUNT\" type\u003d\"fk\" pk-ref\u003d\"9\" fk-ref\u003d\"4\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}}}},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": false,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

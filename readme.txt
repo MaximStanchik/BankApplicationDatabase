@@ -1,0 +1,2 @@
+-- Реализация базы данных банковского приложения с применением технологии шифрования и маскирования БД. 
+-- Implementation of banking application databases using database encryption and masking technology.

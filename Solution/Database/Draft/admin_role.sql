@@ -1,0 +1,23 @@
+grant all privileges on Payment_Service to admin_role;
+    grant all privileges on Credits to admin_role;
+    grant all privileges on Card to admin_role;
+    grant all privileges on Account_Transaction to admin_role;
+    grant all privileges on Currency_Exchange_Rate to admin_role;
+    grant all privileges on User_Support_Request to admin_role;
+    grant all privileges on User_Profile to admin_role;
+    grant all privileges on User_Account to admin_role;
+    grant all privileges on App_User to admin_role;
+    grant all privileges on Currency to admin_role;
+    grant all privileges on Credit_Type to admin_role;
+
+    grant select on Payment_Service to admin_role;
+    grant select on Credits to admin_role;
+    grant select on Card to admin_role;
+    grant select on Account_Transaction to admin_role;
+    grant select on Currency_Exchange_Rate to admin_role;
+    grant select on User_Support_Request to admin_role;
+    grant select on User_Profile to admin_role;
+    grant select on User_Account to admin_role;
+    grant select on App_User to admin_role;
+    grant select on Currency to admin_role;
+    grant select on Credit_Type to admin_role;

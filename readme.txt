@@ -1,2 +1,2 @@
--- Реализация базы данных банковского приложения с применением технологии шифрования и маскирования БД. 
--- Implementation of banking application databases using database encryption and masking technology.
+-- Курсовой проект (5 семестр): Реализация базы данных банковского приложения с применением технологии шифрования и маскирования БД. 
+-- Course project (5th semester): Implementation of banking application databases using database encryption and masking technology.
